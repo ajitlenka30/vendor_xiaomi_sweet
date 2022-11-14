@@ -327,7 +327,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so \
-    vendor/xiaomi/sweet/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+    vendor/xiaomi/sweet/proprietary/vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/xiaomi/sweet/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
@@ -464,7 +465,6 @@ PRODUCT_PACKAGES += \
     libmialgo_utils \
     libmialgoengine \
     libmibokeh_712 \
-    libmpbase \
     libmulticam_image_optical_zoom \
     libmulticam_video_optical_zoom \
     libnotifyaudiohal \
